@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>   
+    <link href="/CSS/style.css" rel="stylesheet" type="text/css"/>
+    <link href="/CSS/utils.css" rel="stylesheet" type="text/css"/>
+    <style>
+        /* Add some basic styling for draggable buttons */
+        .draggable-button {
+            cursor: grab;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center">Calculator</h1>
+    <div class="container flex flex-col mx-auto items-center">
+        <div class="row">
+            <input class="input" type="text">
+        </div>
+        <div class="row">
+            <button class="button draggable-button">C</button>
+            <button class="button draggable-button">%</button>
+            <button class="button draggable-button">M+</button>
+            <button class="button draggable-button">M-</button>
+        </div>
+        
+        <div class="row">
+            <button class="button draggable-button">7</button>
+            <button class="button draggable-button">8</button>
+            <button class="button draggable-button">9</button>
+            <button class="button draggable-button">*</button>
+        </div>
+        <div class="row">
+            <button class="button draggable-button">4</button>
+            <button class="button draggable-button">5</button>
+            <button class="button draggable-button">6</button>
+            <button class="button draggable-button">/</button>
+        </div>
+        <div class="row">
+            <button class="button draggable-button">1</button>
+            <button class="button draggable-button">2</button>
+            <button class="button draggable-button">3</button>
+            <button class="button draggable-button">+</button>
+        </div>
+        <div class="row">
+            <button class="button draggable-button">0</button>
+            <button class="button draggable-button">.</button>
+            <button class="button draggable-button">=</button>
+            <button class="button draggable-button">-</button>
+        </div>
+    </div>  
+    <script src="/Script/DragDrop.js" type="text/javascript"></script>
+</body>
+</html>
